@@ -12,7 +12,7 @@ namespace Company.Function
 {
     public static class HttpTriggerCSharp
     {
-        //quick comment change
+        //quick comment change 2
         [FunctionName("HttpTriggerCSharp")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
